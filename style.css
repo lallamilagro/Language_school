@@ -57,6 +57,9 @@ body {
 
 .page-footer {
     grid-area: footer;
+
+    display: grid;
+    grid-template-columns: 280px 1fr 280px;
 }
 
 .page-main {
